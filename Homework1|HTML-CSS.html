@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather page</title>
+    <style>
+      .head {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+      h1 {
+        color: #1964d6;
+        margin: auto;
+        font-size: 35px;
+        text-align: center;
+      }
+      h2 {
+        font-size: 35px;
+        font-weight: 100;
+        margin: 10px;
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+      }
+      .day {
+        list-style: none;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .day:hover {
+        background-color: #fffbef;
+      }
+
+      p {
+        font-family: monospace;
+        font-size: 18px;
+        margin: 10px;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: white;
+        color: #1a64d6;
+        cursor: pointer;
+      }
+      p {
+        text-align: center;
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <h1>
+        🌤
+        <br />
+        Currently 21° in Tokyo
+      </h1>
+      <h2>13° / <strong>23°</strong></h2>
+      <ul>
+        <li class="day">
+          <h3>🌧 Tomorrow</h3>
+          <p>
+            10° /
+            <strong>22°</strong>
+          </p>
+        </li>
+        <li class="day">
+          <h3>🌥 Saturday</h3>
+          <p>15° / <strong>17°</strong></p>
+        </li>
+        <li class="day">
+          <h3>☀️Sunday</h3>
+          <p>25° / <strong>28°</strong></p>
+        </li>
+      </ul>
+      <button>Change City</button>
+      <p>Coded by Taís Maia</p>
+    </div>
+  </body>
+</html>
